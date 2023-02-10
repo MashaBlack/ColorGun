@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 0%;
+  padding: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+header {
+  color: white;
+  text-align: center;
+  background-color: #000000;
+  text-align: center;
+  padding: 0.5em 0;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #000000;
+  margin: 0;
+}
+
+#chosenColor {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 1em 3em;
+  color: #000000;
+  background-color: #ffffff;
+  width: 30%;
+  border-radius: 30%;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+  border: rgb(0, 0, 0, 0) 0.5em solid;
+}
+
+.square:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+  font-weight: bold;
+  border: rgb(0, 0, 0, 0) 0.5em solid;
+}
+
+button {
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: #ffffff;
+  padding: 0.5em;
+  margin: 1em 0.5em 0em;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+  
+button:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+#timer{
+  display: inline-block;
+  font-size: 300%;
+}
